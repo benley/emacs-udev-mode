@@ -1,13 +1,10 @@
-;;; udev-mode --- Major mode for editing udev rules files
-
+;;; udev-mode --- Major mode for editing udev rules files     -*- lexical-binding: t; -*-
 ;; Author: Benjamin Staffin <benley@gmail.com>
 ;; Keywords: udev linux
 
 ;;; Commentary:
 
 ;;; Code:
-
-;; -*- lexical-binding: t; -*-
 
 (defconst udev-match-keywords
   '("ACTION"
