@@ -1,8 +1,10 @@
 ;;; udev-mode --- Major mode for editing udev rules files     -*- lexical-binding: t; -*-
 
+;; Copyright (C) 2020 Benjamin Staffin
+
 ;; Author: Benjamin Staffin <benley@gmail.com>
 ;; URL: https://github.com/benley/emacs-udev-mode
-;; Keywords: udev linux
+;; Keywords: languages unix
 ;; Package-Requires: ((emacs "24"))
 
 ;; This program is free software: you can redistribute it and/or modify
