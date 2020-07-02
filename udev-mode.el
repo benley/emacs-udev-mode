@@ -96,7 +96,7 @@
     ("\\(PROGRAM\\)=" . (1 font-lock-constant-face))))
 
 ;;;###autoload
-(define-derived-mode udev-mode fundamental-mode "udev"
+(define-derived-mode udev-mode prog-mode "udev"
   (setq font-lock-defaults '(udev-font-lock-keywords
                              nil ;; keywords-only
                              nil ;; case-fold
